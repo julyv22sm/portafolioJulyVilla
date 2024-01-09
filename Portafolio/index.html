@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/img/" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css " rel="stylesheet">
+    <title>July Villa | Desarrolladora Web</title>
+</head>
+
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav>
+      <h1>July Villa</h1>
+      <ul>
+        <li><a href="#sobreMi" class="nav-link">Sobre Mí</a></li>
+        <li><a href="#educacion" class="nav-link">Educación</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#reflexion" class="nav-link">Reflexión</a></li>
+      </ul>  
+      <button class="menu" id="menu">
+            <img src="/img/icons8-menu.svg" alt="menu">
+      </button>
+    </nav>
+    <!-- Fin Barra de Navegación -->
+
+    <!-- Sección Hero Perfil -->
+    <section class="hero" id="about">
+        <img src="/img/Perfil.svg.png" alt="july"/>
+    
+        <!-- Sección Sobre Mí -->
+        <div class="bio">
+          <h2 class="bio-titulo">Sobre Mí</h2>
+            <p class="bio-texto">
+                Desarrolladora web con énfasis en análisis y desarrollo de sistemas de información, con conocimiento de tecnologías como front-end, back-end, CSS, HTML, JavaScript, MySQL, PHP, Phyton y GitHub.
+            </p>
+            <p>
+                En el campo de front end cuento con capacidades y conocimientos para diseñar, crear y trabajar con la interfaz visual de aplicativos web, brindando una experiencia agradable a la vista de los usuarios.
+            </p>
+            <p>
+                En cuanto al área del back end poseo competencias en desarrollo de la funcionabilidad de la interfaz y cómo el usuario interactúa con ella, creando funciones dinámicas que guían los procesos y acciones que toma el usuario en el aplicativo.
+            </p>
+        </div>
+    </section>
+    <!-- Fin Sección Sobre Mí -->
+
+    <!-- Sección Educación -->
+    <section class="educacion" id="educacion">
+        <h2 class="educacion-institucion">Educación</h2>
+        <div class="contenedor-educacion" id="contenedor-educacion">
+          <div class="educacion-info" id="educacion-info">
+              <img src="/img/Logo_generation.svg" alt="generation" loading="lazy"
+              class="edu-pic1">
+              <h3>Generation Colombia</h3>
+              <h4>Desarrolladora Full Stack Junior / Java</h4>
+              <h5>Noviembre 2023 - En curso</h5>
+              <h5>Bogotá, Colombia</h5>
+          </div>
+        </div>
+        <div class="contenedor-educacion">
+            <div class="educacion-info" id="educacion-info">
+                <img src="/img/Sena_logo.png" alt="SENA" loading="lazy"
+                class="edu-pic2">
+                <h3>Servicio Nacional de Aprendizaje </h3>
+                <h4>Tecnóloga en Análisis y Desarrollo de Sistemas de Información</h4>
+                <h5>Agosto 2022 - En curso</h5>
+                <h5>Colombia</h5>
+            </div>
+        </div> 
+    </section>
+    <!-- Fin Sección Educación -->
+
+      <!-- Sección Habilidades con bootstrap-->
+    <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidad">Mis habilidades Técnicas</h2> 
+        <div class="row row-cols-2 row-cols-md-6 g-2">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-html5.svg" class="card-img-top" alt="HTML5"/>
+              <div class="card-body">
+                <h5 class="card-title">HTML-5</h5>
+                <p class="card-text">
+                  Creación de la estructura, el diseño y el contenido de una página web.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-css.svg" class="card-img-top" alt="CSS3"/>
+              <div class="card-body">
+                <h5 class="card-title">CSS-3</h5>
+                <p class="card-text">
+                  Generación del diseño visual de páginas web e interfaces de usuario.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-javascript.svg" class="card-img-top" alt="JavaScript"/>
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">
+                  Añade dinamismo a los aplicativos web, para brindar una experiencia enriquecida a los usuarios.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-bootstrap.svg" class="card-img-top" alt="Bootstrap"/>
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">
+                  Framework que permite construir páginas web responsives usando plantillas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-github.svg" class="card-img-top" alt="GitHub"/>
+              <div class="card-body">
+                <h5 class="card-title">GitHub</h5>
+                <p class="card-text">
+                  Almacenamiento de repositorios de código en la nube y colaboración en el desarrollo de proyectos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/icons8-mysql.svg" class="card-img-top" alt="MySQL"/>
+              <div class="card-body">
+                <h5 class="card-title">MySQL</h5>
+                <p class="card-text">
+                  Base de datos relacional que permite la administración rapida y flexible de los datos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Fin Sección Habilidades con Bootstrap-->
+
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+      <h2 class="titulo-de-proyectos">Algunos de mis proyectos</h2>
+      <div class="contenedor-de-proyectos">
+        <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+          <img
+            src="/img/Proy-arco.png"
+            alt="urb-arcoiris"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyecto">Urbanización Arcoiris</h3>
+          <p class="detalles-proyecto">
+            Proyecto diseñado para mantener informada a la comunidad de la urbanización a cerca 
+            de las novedades que se presentan en el día a día. Además, el proyecto tiene una
+            proyección de generar una base de datos de propietarios y residentes para, en un futuro
+            generar una pasarela de pagos de la cuota de administración por medio de un usuario y
+            contraseña.
+          </p>
+          <a href="#" target="_blank" class="enlace-de-proyecto">Urbanización Arcoiris</a>
+        </div>
+        <div class="contenedor-de-proyecto tarjeta-de-proyectos ">
+          <img
+            src="/img/proy-bic.png"
+            alt="bic"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyecto">B.I.C</h3>
+          <p class="detalles-proyecto">
+            Aplicativo web que contempla el manejo de inventarios, incluye la base de datos de proveedores
+            empleados, clientes y el historial de las facturas. Este proyecto se diseñó como parte 
+            del proyecto de formación como Técnologa en Análisis y Desarrollo en Sistemas de Información
+            cursado en el Servicio Nacional de Aprendizaje - SENA.
+          </p>
+          <a href="#" target="_blank" class="project-link">B.I.C</a>
+        </div>
+      </div>
+    </section>
+
+
+      <!-- Sección Contacto-->
+      <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+          <form action="https://formsubmit.co/july861030@gmail.com" method="POST" class="formulario">
+            <fieldset>
+              <legend>Diligenciar los siguientes datos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre" required/>
+                    </div>
+
+                    <div class="campo">
+                        <label>Télefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu numero de contacto" required/>
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo Electrónico</label>
+                        <input class="input-text" type="email" placeholder="Tu Correo electrónico" required/>
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text" placeholder="Escribe tu mensaje" required></textarea>
+                    </div>
+                  </div> <!-- .contenedor-campos -->
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-100" type="submit" value="Enviar"/>
+                </div>
+            </fieldset>
+          </form>
+      </section>
+        <!-- Fin Sección Contacto-->
+
+    <!-- Sección Reflexión -->
+    <section class="reflexion" id="reflexion">
+      <h2 class="reflexion-titulo">Reflexión</h2>
+        <p class="bio-texto">
+          Soy una mujer de 37 años, tengo 2 hijos, un esposo y dos gatos, estoy convencida de que
+          la familia lo primero, por eso me dedique tantos años a cuidarlos y criar a mis hijos de la 
+          mejor manera. Luego de todos estos años trabajando en mi propio negocio, en el que debí 
+          aprender sobre diversos temas de diseño y arreglo de computadoras, llegué a la conclusión 
+          de que la programación seria mi futuro.
+        </p>
+        <p>
+           En el 2022 comenzó mi travesía en el mundo de la programación, cuando me inscribí en la 
+           Tecnologia de Análisis y Desarrollo de Sistemas de Información, mientras más avanzaba en 
+           mi formación, más me convencia de lo apasionante que es ete tema para mí. 
+        </p>
+        <p>
+          La mejor parte de esta historia, llega en el año 2023,   un fin de semana mientras revisaba
+          mi Intagram, ahí ví la convocatoria de Generation, recuerdo que mi primera impresión fue 
+          "¿De esto tan bueno si darán tanto?", sin embargo, decidí inscribirme y comenzar a realizar 
+          las pruebas de selección... Luego de ese ardúo proceso, pude despejar mis dudas y comenzar
+          mi formación como Desarrolladora Full Stack Jr/JAVA con el apoyo de Generation y B.I.T; hoy
+          puedo decir que es lo mejor que me ha podido pasar en la vida, es una oportunidad única, ya que
+          me ha brindado oportunidades que para mí eran inimaginables, porque no les importó mi edad ni mi 
+          profesion previa.
+        </p>
+        <p>
+          Desde mi primer día en el programa de Generation, he descubierto que ser desarrolladora web
+          no solo consiste en saber escribir un código o realizar un buen diseño visual, sino que debemos
+          formarnos como personas, ayudandonos a conocernos a nosotros mismos y a proyectar nuestro futuro
+          como unos excelentes profesionales, siempre guiandonos de la mano, para asegurarse que nuestro 
+          aprendizaje sea efectivo, pero sobretodo, velando siempre por nuestro bienestar.
+        </p>
+        <p>
+          En mi experiencia personal, puedo asegurar que siento que he aprendido mucho, sobre diversos
+          temas, desde el manejo de mis habilidades blandas hasta mis conocimientos técnicos del desarrollo
+          web, incluso se han preocupado por formarnos en los pasos que debemos seguir para conseguir un 
+          excelente empleo despues de nuestra graduación.
+        </p>
+    </section>  
+    <!-- Fin Sección reflexión -->
+
+    <!-- Volver Arriba -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+      ><img
+        src="/img/icons8-up.gif"
+        class="socicon up-arrow"
+        alt="desplazarse-hacia-arriba"
+    /></i>
+
+    <!-- Sección Footer con bootstrap -->
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Sección de redes sociales -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Fin Section: Social media -->
+      </div>
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright: July Villa Develop
+      </div>
+      <!-- Fin Copyright -->
+    </footer>
+
+    <!-- Website scripts -->
+    <script type="text/javascript" src=".vscode/main.js"></script>
+    <script type="text/javascript" src=".vscode/jsconfig.json"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
